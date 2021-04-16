@@ -34,9 +34,9 @@ function App() {
 
         </main>
       
-      
-      
+         
       </Container>
+      <Footer/>
     </React.Fragment>
   );
 }
