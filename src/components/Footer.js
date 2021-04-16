@@ -42,7 +42,6 @@ export default function Footer(props) {
          Something here to give the footer a purpose!
         </Typography>
         <Copyright />
-
       </Container>
     </footer>
   );

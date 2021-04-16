@@ -38,8 +38,7 @@ export const MainFeature = () => {
     return (
         <div>
            <Paper className={classes.mainFeaturedPost}>
-              <img style={{display:'none'}} src='https://source.unsplash.com/random'alt='mainfeature' /> 
-              <div className={classes.overlay}/>
+           <div className={classes.overlay}/>
               <Grid container>
                   <Grid md={6}>
                       <div className={classes.mainFeaturedPostContent}>
