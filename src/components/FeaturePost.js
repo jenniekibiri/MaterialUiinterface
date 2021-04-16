@@ -15,6 +15,9 @@ const useStyles = makeStyles({
   cardDetails: {
     flex: 1,
   },
+  cardMedia:{
+      width:160
+  }
 });
 
 export const FeaturePost = () => {
@@ -42,16 +45,19 @@ export const FeaturePost = () => {
               </CardContent>
             </div>
             <Hidden xsDown>
-              <CardMedia
-                className={classes.cardMedia}
-                image={`${"https://source.unsplash.com/random"}`}
-                title="some image"
-              />
-            </Hidden>
+            <CardMedia
+          component="img"
+          alt="Contemplative Reptile"
+        className={classes.cardMedia}
+          image="https://source.unsplash.com/random"
+          title="Contemplative Reptile"
+        />
+            </Hidden>  
+           
           </Card>
         </CardActionArea>
       </Grid>
-      <Grid item xs={12} md={6}>
+       <Grid item xs={12} md={6}>
         <CardActionArea component="a" href="#">
           <Card className={classes.card}>
             <div className={classes.cardDetails}>
@@ -72,12 +78,15 @@ export const FeaturePost = () => {
               </CardContent>
             </div>
             <Hidden xsDown>
-              <CardMedia
-                className={classes.cardMedia}
-                image={`${"https://source.unsplash.com/random"}`}
-                title="some image"
-              />
-            </Hidden>
+            <CardMedia
+          component="img"
+          alt="Contemplative Reptile"
+        className={classes.cardMedia}
+          image="https://source.unsplash.com/random"
+          title="Contemplative Reptile"
+        />
+            </Hidden>  
+           
           </Card>
         </CardActionArea>
       </Grid>

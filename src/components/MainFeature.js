@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
   },
+  
   overlay: {
     position: 'absolute',
     top: 0,
@@ -42,9 +43,8 @@ export const MainFeature = () => {
               <Grid container>
                   <Grid md={6}>
                       <div className={classes.mainFeaturedPostContent}>
-                          <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-            
-Title of a longer featured blog post
+            <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+                       Title of a longer featured blog post
             </Typography>
             <Typography variant="h5" color="inherit" paragraph>
               Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.
